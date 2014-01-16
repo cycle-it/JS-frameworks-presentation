@@ -1,0 +1,88 @@
+
+body {
+	background:					url('../img/wallpaper.png') no-repeat center center fixed;
+	-webkit-background-size:	cover;
+	-moz-background-size:		cover;
+	-o-background-size:			cover;
+	background-size:			cover;
+	/*font-size:					smaller;*/
+}
+
+.reduced {
+	font-size:					smaller;
+}
+
+.big {
+	font-size:					120px;
+}
+
+.middled {
+	vertical-align:				middle;
+}
+
+.huge {
+	font-size:					240px;
+}
+
+header, h1, h2, .centred {
+	text-align:					center;
+}
+
+div#bug {
+	position:					fixed;
+	right:						40px;
+	top:						20px;
+}
+
+div#contributors {
+	position:					fixed;
+	bottom:						0;
+	right:						0;
+}
+
+div#contributors > img {
+	width:						100px;
+	height:						100px;
+}
+
+img.logo {
+	/*width:						100px;*/
+	height:						100px;
+}
+
+div#bug > img {
+	width:					45px;
+	height:					49px;
+	-moz-transition:		all 0.5s linear;
+    -webkit-transition:		all 0.5s linear;
+    -o-transition:			all 0.5s linear;
+    transition:				all 0.5s linear;
+}
+
+.impress-enabled .step {
+	opacity:				0;
+	width:					1280px;
+	height:					768px;
+}
+
+.impress-enabled .step.stay {
+	opacity:				0.2;
+}
+
+.impress-enabled .step.active {
+	opacity:				1;
+}
+
+/*.step-overview .step {
+    opacity:				1;
+    cursor:					pointer;
+}*/
+
+/* header, footer, section {
+	background:				#f0f0f0;
+	border:					none;
+	border-radius:			12px;
+	display:				block;
+	height:					740px;
+} */
+

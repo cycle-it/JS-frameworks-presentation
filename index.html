@@ -1,0 +1,274 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1366" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Laboratorio de innovación: frameworks y bibliotecas JS (04/12/2013)</title>
+    <meta name="description" content="Laboratorio de innovación: frameworks y bibliotecas JS (04/12/2013)" />
+    <meta name="author" content="Cycle–IT" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress.css" rel="stylesheet" />
+    <link href="css/cycle.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <header class="step" id="portada">
+        <p><em>Laboratorio de Innovación</em></p>
+        <h1 class="reduced">Plantilla estándar de <em>frameworks</em> y bibliotecas JavaScript para proyectos web</h1>
+        <!-- p class="reduced">Posible subconjunto de <em>AngularJS</em>, <em>Backbone.js</em>, <em>jQuery</em>, <em>Bootstrap</em>; quizá con configuración y añadidos</p -->
+        <p class="reduced">04/12/2013</p>
+        <p class="reduced">Antonio, Jorge &amp; Toño</p>
+    </header>
+
+    <section class="step" id="contenidos" data-x="0" data-rotate-x="180" data-scale="0.5">
+        <h2>Contenidos</h2>
+        <ol>
+            <li><strong>Clasificación</strong> de proyectos JavaScript</li>
+            <li><strong>Evaluación</strong> de ~20 proyectos</li>
+            <li>Selección de un <strong>subconjunto</strong> de herramientas</li>
+            <li>Elaboración de una <strong>plantilla</strong></li>
+            <li>Elaboración de un <strong>ejemplo</strong> simple de uso</li>
+        </ol>
+    </section>
+
+    <section class="step" id="1a" data-x="1200" data-rotate-x="180" data-scale="0.5">
+        <h2>① Clasificación de proyectos JavaScript</h2>
+    </section>
+
+    <section class="step stay" id="1b" data-x="2400" data-rotate-x="180" data-scale="0.5">
+        <h2>⊚ Componentes visuales y gráficas</h2>
+        <p>Bibliotecas de <em>widgets</em>, controles de UI y gráficas</p>
+    </section>
+ 
+    <section class="step" id="1b+" data-x="2400" data-rotate-x="180" data-scale="0.5">
+        <h2>⊚ Componentes visuales y gráficas</h2>
+        <p>Bibliotecas de <em>widgets</em>, controles de UI y gráficas</p>
+        <p class="reduced"><em>Bootstrap, jQuery UI, jQuery Mobile, Kendo UI, Sencha, Dojo, script.aculo.us, AngularUI</em></p>
+    </section>
+
+    <section class="step stay" id="1c" data-x="1800" data-rotate="15" data-y="600" data-rotate-x="180" data-z="-1000" data-scale="0.5">
+        <h2>⊝ Manipulación del DOM, AJAX y utilidades varias</h2>
+        <p class="reduced">Bibliotecas de funciones misceláneas que amplían o corrigen la API JavaScript del navegador y proporcionan abstracciones útiles o notación más concisa para necesidades comunes en la web</p>
+    </section>
+
+    <section class="step" id="1c+" data-x="1800" data-rotate="15" data-y="600" data-rotate-x="180" data-z="-1000" data-scale="0.5">
+        <h2>⊝ Manipulación del DOM, AJAX y utilidades varias</h2>
+        <p class="reduced">Bibliotecas de funciones misceláneas que amplían o corrigen la API JavaScript del navegador y proporcionan abstracciones útiles o notación más concisa para necesidades comunes en la web</p>
+        <p class="reduced"><em>jQuery, Underscore, YUI, Prototype, RequireJS, Zepto</em></p>
+    </section>
+
+    <section class="step stay" id="1d" data-x="1800" data-rotate="30" data-y="1200" data-rotate-x="180" data-z="-2000" data-scale="0.5">
+        <h2>⊛ Arquitectura de la aplicación</h2>
+        <p><em>Frameworks</em> completos que sirven de esqueleto de aplicaciones web y dotan de estructura a las páginas y a sus distintas partes, generalmente siguiendo un patrón de diseño tipo <em>MV*</em></p>
+    </section>
+
+    <section class="step" id="1d+" data-x="1800" data-rotate="30" data-y="1200" data-rotate-x="180" data-z="-2000" data-scale="0.5">
+        <h2>⊛ Arquitectura de la aplicación</h2>
+        <p><em>Frameworks</em> completos que sirven de esqueleto de aplicaciones web y dotan de estructura a las páginas y a sus distintas partes, generalmente siguiendo un patrón de diseño tipo <em>MV*</em></p>
+        <p class="reduced"><em>AngularJS, Backbone.js, Knockout, Ember</em></p>
+    </section>
+
+    <section class="step" id="1e" data-x="3000" data-rotate="0" data-y="1200" data-rotate-x="180" data-z="0" data-scale="1">
+        <h2>La prioridad está en el <em>framework</em></h2>
+        <p class="centred big middled"><strong>⊚ <span class="huge">⊛</span> ⊝</strong></p>
+    </section>
+
+    <section class="step" id="2a" data-x="0" data-y="5000" data-rotate-x="0">
+        <h2>② Evaluación de ~20 proyectos</h2>
+        <ul class="reduced">
+            <li>Precio</li>
+            <li><em>Peso</em> del archivo JS</li>
+            <li>Licencia</li>
+            <li>¿Funciona en móviles y tabletas?</li>
+            <li>¿<em>Graceful degradation</em>?</li>
+            <li>Calidad de la documentación</li>
+        </ul>
+        <div id="contributors">
+            <img src="http://en.cycle-it.com/img/team/jorge.jpg" alt="Jorge" />
+            <img src="http://en.cycle-it.com/img/team/tonio.jpg" alt="Toño" />
+        </div>
+    </section>
+
+    <section class="step" id="2b" data-y="5000">
+        <h2>② Evaluación de ~20 proyectos</h2>
+        <ul class="reduced">
+            <li>Popularidad</li>
+            <li><em>Sociabilidad</em> (<em>plugins</em> para EDIs, conectores con otras herramientas, etc.)</li>
+            <li>Curva de aprendizaje</li>
+            <li>Puntos fuertes y débiles</li>
+            <li>Funcionalidades (si se trata de UI, nº y calidad de los controles disponibles)</li>
+        </ul>
+        <div id="contributors">
+            <img src="http://en.cycle-it.com/img/team/jorge.jpg" alt="Jorge" />
+            <img src="http://en.cycle-it.com/img/team/tonio.jpg" alt="Toño" />
+        </div>
+    </section>
+
+    <section class="step" id="2c" data-y="5000" data-rotate-x="180">
+        <p class="centred">Wiki → <tt>Propuesta labo HTML: trabajo</tt></p>
+    </section>
+
+    <section class="step" id="3a" data-x="1200" data-y="5000" data-rotate-x="180">
+        <h2>③ Selección de un subconjunto de herramientas</h2>
+    </section>
+
+    <section class="step" id="3b" data-x="2400" data-y="5000" data-rotate-x="180">
+    </section>
+
+    <section class="step" id="3c" data-x="2400" data-y="5000" data-rotate-x="180">
+        <p class="centred"><img class="logo" style="height: 100px; visibility: hidden;" src="img/RequireJS.png" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px; visibility: hidden;" src="img/Bootstrap.jpeg" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px;" src="img/AngularJS.jpeg" alt="AngularJS" />
+            <img class="logo" style="height: 50px; margin: 40px 0 40px 80px; visibility: hidden;" src="img/jQuery.png" alt="jQuery" /></p>
+    </section>
+
+    <section class="step" id="3d" data-x="2400" data-y="5000" data-rotate-x="180">
+        <p class="centred"><img class="logo" style="height: 100px; visibility: hidden;" src="img/RequireJS.png" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px; visibility: hidden;" src="img/Bootstrap.jpeg" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px;" src="img/AngularJS.jpeg" alt="AngularJS" />
+            <img class="logo" style="height: 50px; margin: 40px 0 40px 80px;" src="img/jQuery.png" alt="jQuery" /></p>
+    </section>
+
+    <section class="step" id="3e" data-x="2400" data-y="5000" data-rotate-x="180">
+        <p class="centred"><img class="logo" style="height: 100px; visibility: hidden;" src="img/RequireJS.png" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px;" src="img/Bootstrap.jpeg" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px;" src="img/AngularJS.jpeg" alt="AngularJS" />
+            <img class="logo" style="height: 50px; margin: 40px 0 40px 80px;" src="img/jQuery.png" alt="jQuery" /></p>
+    </section>
+
+    <section class="step" id="3f" data-x="2400" data-y="5000" data-rotate-x="180">
+        <p class="centred"><img class="logo" style="height: 100px;" src="img/RequireJS.png" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px;" src="img/Bootstrap.jpeg" alt="AngularJS" /></p>
+        <p class="centred"><img class="logo" style="height: 180px;" src="img/AngularJS.jpeg" alt="AngularJS" />
+            <img class="logo" style="height: 50px; margin: 40px 0 40px 80px;" src="img/jQuery.png" alt="jQuery" /></p>
+    </section>
+
+    <section class="step" id="4a" data-x="3600" data-y="5000" data-rotate-x="180">
+        <h2>④ Elaboración de una plantilla</h2>
+    </section>
+
+    <section class="step" id="4b" data-x="4800" data-y="5000" data-rotate-x="180">
+        <h2><a href="https://github.com/angular/angular-seed" target="_blank">angular-seed</a></h2>
+        <textarea style="width: 100%; height: 70%;">
+app/                --> all of the files to be used in production
+  css/              --> css files
+    app.css         --> default stylesheet
+  img/              --> image files
+  index.html        --> app layout file (the main html template file of the app)
+  index-async.html  --> just like index.html, but loads js files asynchronously
+  js/               --> javascript files
+    app.js          --> application
+    controllers.js  --> application controllers
+    directives.js   --> application directives
+    filters.js      --> custom angular filters
+    services.js     --> custom angular services
+  lib/              --> angular and 3rd party javascript libraries
+    angular/
+      angular.js        --> the latest angular js
+      angular.min.js    --> the latest minified angular js
+      angular-*.js      --> angular add-on modules
+      version.txt       --> version number
+  partials/             --> angular view partials (partial html templates)
+    partial1.html
+    partial2.html
+
+config/karma.conf.js        --> config file for running unit tests with Karma
+config/karma-e2e.conf.js    --> config file for running e2e tests with Karma
+
+scripts/            --> handy shell/js/ruby scripts
+  e2e-test.sh       --> runs end-to-end tests with Karma (*nix)
+  e2e-test.bat      --> runs end-to-end tests with Karma (windows)
+  test.bat          --> autotests unit tests with Karma (windows)
+  test.sh           --> autotests unit tests with Karma (*nix)
+  web-server.js     --> simple development webserver based on node.js
+
+test/               --> test source files and libraries
+  e2e/              -->
+    runner.html     --> end-to-end test runner (open in your browser to run)
+    scenarios.js    --> end-to-end specs
+  lib/
+    angular/                --> angular testing libraries
+      angular-mocks.js      --> mocks that replace certain angular services in tests
+      angular-scenario.js   --> angular's scenario (end-to-end) test runner library
+      version.txt           --> version file
+  unit/                     --> unit level specs/tests
+    controllersSpec.js      --> specs for controllers
+    directivessSpec.js      --> specs for directives
+    filtersSpec.js          --> specs for filters
+    servicesSpec.js         --> specs for services
+        </textarea>
+    </section>
+
+    <section class="step" id="4c" data-x="6000" data-y="5000" data-rotate-x="180">
+        <h2><a href="https://github.com/yeoman/generator-angular" target="_blank">generator-angular</a></h2>
+        <p><em>Generador</em> de <a href="http://yeoman.io/" target="_blank">Yeoman</a> para AngularJS</p>
+        <pre>npm install -g generator-angular
+mkdir my-new-project && cd $_
+yo angular [app-name]</pre>
+    </section>
+
+    <section class="step" id="4d" data-x="7200" data-y="5000" data-rotate-x="180">
+        <p>Generadores: <br /> <em>angular</em>, <em>angular:controller</em>, <em>angular:directive</em>, <em>angular:filter</em>,
+            <em>angular:route</em>, <em>angular:service</em>, <em>angular:provider, angular:factory, angular:value, <em>angular:constant</em>,
+            <em>angular:decorator</em>, <em>angular:view</em></p>
+    </section>
+
+    <section class="step" id="4e" data-x="8400" data-y="5000" data-rotate-x="180">
+        <h2>AMD</h2>
+        <p><em>Asynchronous Module Definition</em></p>
+        <p>RequireJS usa AMD para cargar módulos JavaScript (y archivos en general) asíncronamente.</p>
+    </section>
+
+    <section class="step" id="4f" data-x="8400" data-y="5000" data-rotate-x="360">
+        <p class="centred">SVN → <tt>html/plantilla/</tt></p>
+    </section>
+
+    <section class="step" id="5a" data-x="9600" data-y="5000" data-rotate-x="360">
+        <h2>⑤ Elaboración de un ejemplo simple de uso</h2>
+        <p class="centred"><img src="http://en.cycle-it.com/img/team/jorge.jpg" alt="Jorge" /></p>
+    </section>
+
+    <section class="step" id="5b" data-x="9600" data-y="5000" data-rotate-x="540">
+        <p class="centred">SVN → <tt>/html/ejemplo/</tt></p>
+    </section>
+
+    <footer class="step" id="fin" data-x="9600" data-y="5000" data-rotate-x="540" data-rotate="90">
+        <h2>Gracias :¬)</h2>
+    </footer>
+
+</div>
+
+<div class="hint">
+    <p>Use la barra espaciadora o las flechas de dirección para navegar</p>
+</div>
+
+<div id="bug">
+    <img src="img/C.png" alt="logo"/>
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Toque a la izquierda o a la derecha para navegar</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script src="js/cycle.js"></script>
+
+<script>impress().init();</script>
+
+</body>
+
+</html>
+
