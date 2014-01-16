@@ -1,4 +1,4 @@
 JS-frameworks-presentation
 ==========================
 
-Presentación HTML: propuesta de plantilla estándar de «frameworks» y bibliotecas JavaScript para proyectos web
+Presentación HTML: propuesta de plantilla estándar de «frameworks» JavaScript para proyectos web.
