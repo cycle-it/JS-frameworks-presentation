@@ -701,6 +701,10 @@
         //   positioning. I didn't want to just prevent this default action, so I used [tab]
         //   as another way to moving to next step... And yes, I know that for the sake of
         //   consistency I should add [shift+tab] as opposite action...
+        //   [@tripu, 2013-12-09: Tab key still captured (and default behaviour prevented),
+        //   but *not* moving forward the presentation. By doing this, the user can still press
+        //   Alt+Tab / Alt+Shift+Tab to commute among open windows, and
+        //   Ctrl+Tab / Ctrl+Shift+Tab to move through browser tabs ;¬) ]
         document.addEventListener("keyup", function ( event ) {
             if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40) ) {
                 switch( event.keyCode ) {
@@ -709,7 +713,6 @@
                     case 38: // up
                              api.prev();
                              break;
-                    // case 9:  // tab
                     case 32: // space
                     case 34: // pg down
                     case 39: // right
