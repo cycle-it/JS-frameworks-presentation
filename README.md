@@ -1,4 +1,9 @@
-JS-frameworks-presentation
+JS frameworks presentation
 ==========================
 
-Presentación HTML: propuesta de plantilla estándar de «frameworks» JavaScript para proyectos web.
+**«Propuesta de plantilla estándar de *frameworks* y bibliotecas JavaScript para proyectos web»** (presentación HTML en español)
+
+Antonio, Jorge y Toño, 04/12/2013
+
+Ver la presentación: http://cycle-it.github.io/JS-frameworks-presentation/
+
